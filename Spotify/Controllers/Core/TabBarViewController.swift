@@ -31,6 +31,7 @@ class TabBarViewController: UITabBarController {
         let searchNav = UINavigationController(rootViewController: searchVC)
         let libraryNav = UINavigationController(rootViewController: libraryVC)
         
+        // Set Tab Bar icons
         homeNav.tabBarItem = UITabBarItem(title: "Home", image: UIImage(systemName: "house"), tag: 1)
         searchNav.tabBarItem = UITabBarItem(title: "Search", image: UIImage(systemName: "magnifyingglass"), tag: 1)
         libraryNav.tabBarItem = UITabBarItem(title: "Library", image: UIImage(systemName: "music.note.list"), tag: 1 )
