@@ -30,6 +30,7 @@
 		E58E041A2C067E2D007FBF4B /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58E04192C067E2D007FBF4B /* Artist.swift */; };
 		E58E041C2C067E38007FBF4B /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58E041B2C067E38007FBF4B /* UserProfile.swift */; };
 		E58E041E2C0717E3007FBF4B /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = E58E041D2C0717E3007FBF4B /* Secrets.plist */; };
+		E58E04202C07232A007FBF4B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58E041F2C07232A007FBF4B /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		E58E04192C067E2D007FBF4B /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		E58E041B2C067E38007FBF4B /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
 		E58E041D2C0717E3007FBF4B /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
+		E58E041F2C07232A007FBF4B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -153,6 +155,7 @@
 				E58E03E72C06759A007FBF4B /* Assets.xcassets */,
 				E58E03DE2C067599007FBF4B /* AppDelegate.swift */,
 				E58E03E02C067599007FBF4B /* SceneDelegate.swift */,
+				E58E041F2C07232A007FBF4B /* Extensions.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 				E58E03DF2C067599007FBF4B /* AppDelegate.swift in Sources */,
 				E58E03FD2C067D38007FBF4B /* LibraryViewController.swift in Sources */,
 				E58E041C2C067E38007FBF4B /* UserProfile.swift in Sources */,
+				E58E04202C07232A007FBF4B /* Extensions.swift in Sources */,
 				E58E040C2C067D9D007FBF4B /* PlaylistViewController.swift in Sources */,
 				E58E041A2C067E2D007FBF4B /* Artist.swift in Sources */,
 				E58E03E12C067599007FBF4B /* SceneDelegate.swift in Sources */,
