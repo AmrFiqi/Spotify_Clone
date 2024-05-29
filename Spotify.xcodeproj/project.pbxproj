@@ -29,6 +29,7 @@
 		E58E04182C067E26007FBF4B /* AudioTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58E04172C067E26007FBF4B /* AudioTrack.swift */; };
 		E58E041A2C067E2D007FBF4B /* Artist.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58E04192C067E2D007FBF4B /* Artist.swift */; };
 		E58E041C2C067E38007FBF4B /* UserProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = E58E041B2C067E38007FBF4B /* UserProfile.swift */; };
+		E58E041E2C0717E3007FBF4B /* Secrets.plist in Resources */ = {isa = PBXBuildFile; fileRef = E58E041D2C0717E3007FBF4B /* Secrets.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		E58E04172C067E26007FBF4B /* AudioTrack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioTrack.swift; sourceTree = "<group>"; };
 		E58E04192C067E2D007FBF4B /* Artist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Artist.swift; sourceTree = "<group>"; };
 		E58E041B2C067E38007FBF4B /* UserProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserProfile.swift; sourceTree = "<group>"; };
+		E58E041D2C0717E3007FBF4B /* Secrets.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Secrets.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 				E58E03F52C0675DD007FBF4B /* ViewModels */,
 				E58E03F22C0675CC007FBF4B /* Controllers */,
 				E58E03EC2C06759A007FBF4B /* Info.plist */,
+				E58E041D2C0717E3007FBF4B /* Secrets.plist */,
 			);
 			path = Spotify;
 			sourceTree = "<group>";
@@ -238,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E58E03E82C06759A007FBF4B /* Assets.xcassets in Resources */,
+				E58E041E2C0717E3007FBF4B /* Secrets.plist in Resources */,
 				E58E03EB2C06759A007FBF4B /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
